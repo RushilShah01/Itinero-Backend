@@ -13,7 +13,7 @@ const app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin: 'https://67c859c96a34dc0c1f2630f9--itiner0.netlify.app/',
+    origin: 'https://67c85c36cac285100af3750a--itiner0.netlify.app/',
     methods:'GET,POST,PUT,DELETE',
     allowedHeaders:'Content-Type, Authorization',
     credentials:true
